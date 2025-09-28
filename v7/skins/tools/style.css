@@ -1622,6 +1622,9 @@ button.btn.btn-sm.btn-success {
   color: #555;
   margin-left: 7px;
 }
+.floatThead-wrapper{
+  margin-left: 25px;
+}
 .listview-table .table-actions.reportListActions {
   width: 125px;
   font-size: 15px;
@@ -2250,10 +2253,10 @@ th {
 .popoverCancel {
   font-size: 14px;
   padding-left: 10px;
-  color: red;
+  color: black;
 }
 .modal-overlay-footer a:hover {
-  color: red;
+  color: black;
 }
 .cancel-x-small {
   font-size: 12px;
@@ -3789,7 +3792,7 @@ th {
 }
 .cp-mandatory::after {
   content: "*";
-  color: red;
+  color: black;
 }
 .nav-tabs .cp-modules > .active > a,
 .nav-tabs .cp-modules > .active > a:hover {
@@ -4298,7 +4301,7 @@ tr.file > td.fileOwnerData {
   height: 75px;
 }
 .mailboxArrowLabel {
-  color: red;
+  color: black;
   display: inline-block;
   margin-right: -5px;
   font-size: 1.2em;
@@ -6435,7 +6438,7 @@ table#lineItemTab tbody tr > :nth-child(4) {
 }
 .reference-mandatory::after {
   content: "*";
-  color: red;
+  color: black;
   top: -30px;
   position: inherit;
   left: 10px;
@@ -7913,5 +7916,5 @@ body .fc {
 }
 
 .btn-default, .btn-flat-default{
-  color: red;
+  color: black;
 }

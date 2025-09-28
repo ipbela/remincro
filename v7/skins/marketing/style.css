@@ -529,6 +529,9 @@ div#PROJECT_modules_dropdownMenu{
 li.listViewFilter{
   margin-left: 50px;
 }
+li.listViewFilter a.filterName{
+  margin-left: 10px;
+}
 #FloatThead-wrapper {
   margin-left: 25px;
   margin-top: 20px;
@@ -1179,6 +1182,7 @@ input[type="password"].inputElement {
   margin-top: 15px;
   text-transform: uppercase;
   color: #000000;
+  display: none;
 }
 div#mycalendar{
   margin-left: 15px;
@@ -1207,6 +1211,8 @@ input.search-list{
 .lists-menu-container hr {
   margin: 5px 0;
 }
+
+
 /* mScrollbar customization for lists widget */
 .lists-menu-container .menu-scroller .mCSB_scrollTools {
   width: 13px;
@@ -1561,6 +1567,10 @@ button.btn.addButton.btn-default.selectRelation {
 /***********************************
 **********List View Styles**********
 ***********************************/
+h5.pull-left{
+  margin-left: -50px;
+}
+
 .fa.pull-left {
   margin-right: 0;
 }
@@ -1805,6 +1815,16 @@ input[type=checkbox]:checked {
 }
 .edited {
   box-shadow: 0px 0px 2px 2px #CCCCCC;
+}
+#Campaigns_basicAction_LBL_IMPORT{
+  margin-left: -5px;
+}
+.settingsIcon{
+  margin-left: -65px;
+  margin-right: 15px;
+}
+.floatThead-wrapper{
+  margin-left: 25px;
 }
 #listview-table .inline-save button {
   height: 26px;
@@ -5299,9 +5319,6 @@ hr {
   vertical-align: middle;
   border-radius: 15px;
   background-color: #d39489;
-}
-.col-lg-6{
-  margin-top: 30px;
 }
 ul.dropdown-menu {
   border-radius: 15px;

@@ -1635,6 +1635,9 @@ input[type=checkbox]:checked {
 .edited {
   box-shadow: 0px 0px 2px 2px #CCCCCC;
 }
+.floatThead-wrapper{
+  margin-left: 25px;
+}
 #listview-table .inline-save button {
   height: 26px;
   width: 35px;

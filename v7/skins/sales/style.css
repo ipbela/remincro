@@ -542,6 +542,10 @@ div#PROJECT_modules_dropdownMenu{
   line-height: 40px;
 }
 
+li.listViewFilter a.filterName{
+  margin-left: 5px;
+}
+
 .app-MARKETING {
   background: #EF5E29 !important;
 }
@@ -1311,6 +1315,7 @@ input[type="password"].inputElement {
   margin-top: 15px;
   text-transform: uppercase;
   color: #000000;
+  display: none
 }
 
 .lists-menu-container .sidebar-header {
@@ -1654,6 +1659,10 @@ ul.unstyled {
   color: red;
 }
 
+.floatThead-wrapper{
+  margin-left: 25px;
+}
+
 .emptyRecordsDiv {
   width: 100%;
   height: 350px;
@@ -1703,11 +1712,19 @@ ul.unstyled {
 /***********************************
 **********Button Styles**********
 ***********************************/
+
+#Potentials_basicAction_LBL_IMPORT{
+  margin-left: -5px;
+}
+.settingsIcon{
+  margin-left: -65px;
+  margin-right: 15px;
+}
+
 .module-buttons-container {
   float: right;
   margin-right: 10px;
 }
-
 .btn {
   border-radius: 20px;
   font-weight: 100;
