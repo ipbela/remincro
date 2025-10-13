@@ -1740,6 +1740,22 @@ ul.unstyled {
   background: #5bc0de !important;
 }
 
+#Products_listView_basicAction_LBL_ADD_RECORD{
+  margin-top: -55px;
+}
+
+#Products_basicAction_LBL_IMPORT{
+  margin-top: -55px;
+}
+
+button.btn.btn-default.module-buttons.dropdown-toggle{
+  margin-top: -55px;
+}
+
+table.table.listview-table.floatThead-table{
+  border-top-left-radius: 20px;
+}
+
 /***********************************
 **********List View Styles**********
 ***********************************/

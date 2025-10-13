@@ -1816,9 +1816,20 @@ input[type=checkbox]:checked {
 .edited {
   box-shadow: 0px 0px 2px 2px #CCCCCC;
 }
+
 #Campaigns_basicAction_LBL_IMPORT{
   margin-left: -5px;
+  margin-top: 5px;
 }
+
+#Campaigns_listView_basicAction_LBL_ADD_RECORD{
+  margin-top: 5px;
+}
+
+button.btn.btn-default.module-buttons.dropdown-toggle{
+  margin-top: 5px;
+}
+
 .settingsIcon{
   margin-left: -65px;
   margin-right: 15px;
