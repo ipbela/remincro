@@ -1817,12 +1817,12 @@ input[type=checkbox]:checked {
   box-shadow: 0px 0px 2px 2px #CCCCCC;
 }
 
-#Campaigns_basicAction_LBL_IMPORT{
+#Accounts_basicAction_LBL_IMPORT, #Contacts_basicAction_LBL_IMPORT, #Leads_basicAction_LBL_IMPORT, #Campaigns_basicAction_LBL_IMPORT{
   margin-left: -5px;
   margin-top: 5px;
 }
 
-#Campaigns_listView_basicAction_LBL_ADD_RECORD{
+#Accounts_listView_basicAction_LBL_ADD_RECORD, #Contacts_listView_basicAction_LBL_ADD_RECORD, #Leads_listView_basicAction_LBL_ADD_RECORD, #Campaigns_listView_basicAction_LBL_ADD_RECORD{
   margin-top: 5px;
 }
 

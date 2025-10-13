@@ -1740,11 +1740,11 @@ ul.unstyled {
   background: #5bc0de !important;
 }
 
-#Products_listView_basicAction_LBL_ADD_RECORD{
+#Accounts_basicAction_LBL_IMPORT, #Contacts_listView_basicAction_LBL_ADD_RECORD, #Vendors_listView_basicAction_LBL_ADD_RECORD, #PurchaseOrder_listView_basicAction_LBL_ADD_RECORD, #SalesOrder_listView_basicAction_LBL_ADD_RECORD, #Invoice_listView_basicAction_LBL_ADD_RECORD, #PriceBooks_listView_basicAction_LBL_ADD_RECORD, #Services_listView_basicAction_LBL_ADD_RECORD, #Products_listView_basicAction_LBL_ADD_RECORD{
   margin-top: -55px;
 }
 
-#Products_basicAction_LBL_IMPORT{
+#Accounts_listView_basicAction_LBL_ADD_RECORD, #Contacts_basicAction_LBL_IMPORT, #Vendors_basicAction_LBL_IMPORT, #PurchaseOrder_basicAction_LBL_IMPORT, #SalesOrder_basicAction_LBL_IMPORT, #Invoice_basicAction_LBL_IMPORT, #PriceBooks_basicAction_LBL_IMPORT, #Services_basicAction_LBL_IMPORT, #Products_basicAction_LBL_IMPORT{
   margin-top: -55px;
 }
 

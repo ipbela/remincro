@@ -1709,12 +1709,12 @@ ul.unstyled {
 **********Button Styles**********
 ***********************************/
 
-#Potentials_basicAction_LBL_IMPORT{
+#Quotes_basicAction_LBL_IMPORT, #Products_basicAction_LBL_IMPORT, #Potentials_basicAction_LBL_IMPORT, #Services_basicAction_LBL_IMPORT, #Contacts_basicAction_LBL_IMPORT, #Accounts_basicAction_LBL_IMPORT{
   margin-right: 70px;
   margin-top: -55px;
 }
 
-#Potentials_listView_basicAction_LBL_ADD_RECORD{
+#Quotes_listView_basicAction_LBL_ADD_RECORD, #Products_listView_basicAction_LBL_ADD_RECORD, #Potentials_listView_basicAction_LBL_ADD_RECORD, #Services_listView_basicAction_LBL_ADD_RECORD, #Contacts_listView_basicAction_LBL_ADD_RECORD, #Accounts_listView_basicAction_LBL_ADD_RECORD{
   margin-top: -55px;
   margin-right: 10px;
 }
@@ -1724,7 +1724,7 @@ button.btn.btn-default.module-buttons.dropdown-toggle{
   margin-right: -10px;
 }
 
-table.table.listview-table-norecords.listview-table.floatThead-table{
+table.table.listview-table.floatThead-table{
   border-top-left-radius: 20px;
 }
 
