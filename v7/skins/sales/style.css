@@ -1706,15 +1706,15 @@ ul.unstyled {
 }
 
 /***********************************
-**********Button Styles**********
+********** Button Styles **********
 ***********************************/
 
-#Quotes_basicAction_LBL_IMPORT, #Products_basicAction_LBL_IMPORT, #Potentials_basicAction_LBL_IMPORT, #Services_basicAction_LBL_IMPORT, #Contacts_basicAction_LBL_IMPORT, #Accounts_basicAction_LBL_IMPORT{
+#WhatsAppLog_basicAction_LBL_IMPORT, #Quotes_basicAction_LBL_IMPORT, #Products_basicAction_LBL_IMPORT, #Potentials_basicAction_LBL_IMPORT, #Services_basicAction_LBL_IMPORT, #Contacts_basicAction_LBL_IMPORT, #Accounts_basicAction_LBL_IMPORT{
   margin-right: 70px;
   margin-top: -55px;
 }
 
-#Quotes_listView_basicAction_LBL_ADD_RECORD, #Products_listView_basicAction_LBL_ADD_RECORD, #Potentials_listView_basicAction_LBL_ADD_RECORD, #Services_listView_basicAction_LBL_ADD_RECORD, #Contacts_listView_basicAction_LBL_ADD_RECORD, #Accounts_listView_basicAction_LBL_ADD_RECORD{
+#WhatsAppLog_listView_basicAction_LBL_ADD_RECORD, #Quotes_listView_basicAction_LBL_ADD_RECORD, #Products_listView_basicAction_LBL_ADD_RECORD, #Potentials_listView_basicAction_LBL_ADD_RECORD, #Services_listView_basicAction_LBL_ADD_RECORD, #Contacts_listView_basicAction_LBL_ADD_RECORD, #Accounts_listView_basicAction_LBL_ADD_RECORD{
   margin-top: -55px;
   margin-right: 10px;
 }
@@ -1728,6 +1728,14 @@ table.table.listview-table.floatThead-table{
   border-top-left-radius: 20px;
 }
 
+.custom-module{
+  color: #7e92a2;
+}
+
+.custom-module:hover{
+  color: #d39489;
+}
+
 .settingsIcon{
   margin-left: -65px;
   margin-right: 15px;
@@ -1737,6 +1745,7 @@ table.table.listview-table.floatThead-table{
   float: right;
   margin-right: 10px;
 }
+
 .btn {
   border-radius: 20px;
   font-weight: 100;
