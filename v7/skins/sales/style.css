@@ -1728,11 +1728,11 @@ table.table.listview-table.floatThead-table{
   border-top-left-radius: 20px;
 }
 
-span.custom-module{
+a, span.custom-module{
   color: #7e92a2;
 }
 
-.custom-module:hover{
+a, span.custom-module:hover{
   color: #d39489;
 }
 
