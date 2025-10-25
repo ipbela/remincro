@@ -628,15 +628,11 @@ a.menu-item:hover {
   padding-right: 10px;
 }
 
-
-
-
 .app-menu .app-modules-dropdown {
-  left: 230px;
-  top: -1px;
+  margin-left: 10px;
+  top: 0px;
   position: fixed;
   width: 230px;
-  height: 0vh;
   font-size: 1.2em;
   overflow-x: hidden;
   background-color: #eaeef4;
@@ -645,11 +641,6 @@ a.menu-item:hover {
   -moz-box-shadow: none;
   border-top: none;
 }
-
-
- 
-
-
 
 .app-menu .app-modules-dropdown li {
   padding: 3%;
@@ -700,8 +691,12 @@ a.menu-item:hover {
   padding-left: 4px;
 }
 
+span.app-icon-list.fa.fa-dot-circle-o::before{
+  padding: 30px 4px;
+}
 
- 
+d
+
 .app-item {
   font-size: 14px;
   color: #7e92a2;

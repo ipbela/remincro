@@ -711,6 +711,11 @@ a.menu-item:hover {
   border: 0.1px solid;
 }
 
+#app-menu > div > div.app-list.row > div.dropdown.app-modules-dropdown-container.dropdown-compact > ul{
+  top: 500px !important;
+  height: 170px !important;
+}
+
 .app-item div {
   -webkit-transition: all 0.25s ease-in;
   -moz-transition: all 0.25s ease;
@@ -1728,12 +1733,8 @@ table.table.listview-table.floatThead-table{
   border-top-left-radius: 20px;
 }
 
-a, span.custom-module{
-  color: #7e92a2;
-}
-
-a, span.custom-module:hover{
-  color: #d39489;
+span.app-icon-list.fa.fa-dot-circle-o::before{
+  padding: 30px 2px;
 }
 
 .settingsIcon{
@@ -2042,6 +2043,10 @@ input[type=checkbox]:checked {
 
 .listview-table .table-actions span.caret {
   padding: 0;
+}
+
+span.custom-module{
+  color: #B94A48;
 }
 
 .listview-table tr td .input .checkbox {

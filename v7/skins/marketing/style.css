@@ -614,6 +614,24 @@ a.menu-item:hover {
   margin-left: 7px;
   border: 0.1px solid;
 }
+
+#app-menu > div > div.app-list.row > div.dropdown.app-modules-dropdown-container.dropdown-compact.open > ul {
+  top: 500px !important;
+  height: 170px !important;
+}
+
+#sidebar-essentials{
+  margin-left: 5px;
+}
+
+div.essentials-toggle{
+  margin-left: 5px;
+}
+
+#modnavigator{
+  display: none;
+}
+
 .app-item div {
   -webkit-transition: all 0.25s ease-in;
   -moz-transition: all 0.25s ease;
