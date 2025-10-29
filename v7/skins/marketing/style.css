@@ -620,17 +620,17 @@ a.menu-item:hover {
   height: 170px !important;
 }
 
-#sidebar-essentials{
+/* #sidebar-essentials{
   margin-left: 5px;
 }
 
 div.essentials-toggle{
   margin-left: 5px;
-}
+} */
 
-#modnavigator{
+/* #modnavigator{
   display: none;
-}
+} */
 
 .app-item div {
   -webkit-transition: all 0.25s ease-in;
@@ -1835,12 +1835,12 @@ input[type=checkbox]:checked {
   box-shadow: 0px 0px 2px 2px #CCCCCC;
 }
 
-#Accounts_basicAction_LBL_IMPORT, #Contacts_basicAction_LBL_IMPORT, #Leads_basicAction_LBL_IMPORT, #Campaigns_basicAction_LBL_IMPORT{
+#Users_basicAction_LBL_IMPORT, #Accounts_basicAction_LBL_IMPORT, #Contacts_basicAction_LBL_IMPORT, #Leads_basicAction_LBL_IMPORT, #Campaigns_basicAction_LBL_IMPORT{
   margin-left: -5px;
   margin-top: 5px;
 }
 
-#Accounts_listView_basicAction_LBL_ADD_RECORD, #Contacts_listView_basicAction_LBL_ADD_RECORD, #Leads_listView_basicAction_LBL_ADD_RECORD, #Campaigns_listView_basicAction_LBL_ADD_RECORD{
+#Users_listView_basicAction_LBL_ADD_RECORD, #Accounts_listView_basicAction_LBL_ADD_RECORD, #Contacts_listView_basicAction_LBL_ADD_RECORD, #Leads_listView_basicAction_LBL_ADD_RECORD, #Campaigns_listView_basicAction_LBL_ADD_RECORD{
   margin-top: 5px;
 }
 
@@ -7097,11 +7097,16 @@ li.select2-search-choice div {
 .main-container-Reports .mod-switcher-container {
   width: 0;
 }
-.main-container-Documents .sidebar-essentials,
+
 .main-container-Reports .sidebar-essentials {
   width: 283px;
   left: 0;
 }
+
+.main-container-Documents #sidebar-essentials{
+  margin-left: 28px;
+}
+
 .main-container-Documents .full-width,
 .main-container-Reports .full-width {
   padding-left: 0px !important;
