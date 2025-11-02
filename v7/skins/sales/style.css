@@ -2439,7 +2439,7 @@ th {
 .detailViewContainer .recordImage.bgcontacts,
 .overlayDetailHeader .recordImage.bgcontacts,
 .quickPreviewModuleHeader .recordImage.bgcontacts {
-  background: #03A678;
+  background: #d39489;
 }
 
 .detailViewContainer .recordImage.bghelpdesk,
@@ -2791,11 +2791,15 @@ th {
 .editViewContents .fieldBlockContainer,
 .summaryView {
   position: relative;
-  border: 1px solid #eee;
+  border: 1px solid #d39489;
   padding: 15px;
   margin-bottom: 10px;
   background: #FFFFFF;
   border-width: thin;
+}
+
+ul.detailViewSetting.dropdown-menu{
+  background-color: #d39489;
 }
 
 .summaryView .fieldLabel {
@@ -9337,10 +9341,14 @@ input:focus:-ms-input-placeholder {
   border: 1px solid #FFFFFF;
   border-radius: 4px;
   padding: 3px 4px 3px 2px !important;
-  font-size: 10px;
+  font-size: 12px;
   width: 26px;
   height: 24px;
   font-weight: 800;
+}
+
+div.col-sm-12.col-xs-12.content-area{
+  margin-left: 20px;
 }
 
 #quickCreateModules .custom-module,
