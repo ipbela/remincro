@@ -695,6 +695,14 @@ span.app-icon-list.fa.fa-dot-circle-o::before{
   padding: 30px 4px;
 }
 
+span.app-icon-list.fa.fa-wrench::before{
+  padding: 30px 4px;
+}
+
+span.app-icon-list.fa.vicon-inventory::before{
+  padding: 30px 2px;
+}
+
 .app-item {
   font-size: 14px;
   color: #7e92a2;
@@ -1371,6 +1379,16 @@ input[type="password"].inputElement {
 .table > tfoot > tr > td {
   border: 0px;
 }
+
+div.floatThead-floatContainer.floatThead-container{
+  border-start-start-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+div#table-content{
+  border-radius: 20px;
+}
+
 .display-inline-block {
   display: inline-block;
 }
@@ -1463,10 +1481,10 @@ ul.unstyled {
 .module-buttons.btn {
   padding: 6px 12px;
   margin: 4px 2px;
-  border-radius: 20px;
+  border-radius: 50px;
   border: 1px solid #ddd;
-  color: #fff;
-  background: #fff;
+  color: #666;
+  background-color: #fff;
   border-width: thin;
 }
 .module-buttons:hover,
