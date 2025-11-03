@@ -1844,8 +1844,8 @@ input[type=checkbox]:checked {
   margin-top: 5px;
 }
 
-div#sidebar-essentials.sidebar-essentials{
-  margin-left: 40px;
+div.btn-group.listViewActionsContainer{
+  margin-left: 50px;
 }
 
 button.btn.btn-default.module-buttons.dropdown-toggle{
@@ -6879,22 +6879,21 @@ table#lineItemTab tbody tr > :nth-child(4) {
   text-overflow: ellipsis;
 }
 
-.quick-create-module {
-  font-size: inherit;
+#menubar_quickCreate_WhatsAppLog .quick-create-module {
+  color: transparent;          /* esconde o texto original */
   position: relative;
-  color: transparent; /* Esconde o texto original */
 }
 
-.quick-create-module::after {
-  content: "WhatsAppLog"; /* Novo texto sem 'SINGLE_' */
-  color: black; /* Cor do texto visível */
+#menubar_quickCreate_WhatsAppLog .quick-create-module::after {
+  content: "WhatsApp";      /* novo texto */
+  color: white;                /* cor do texto visível */
   position: absolute;
-  left: 0;
   top: 0;
+  left: 0;
 }
 
 a#menubar_quickCreate_WhatsAppLog{
-  margin-left: -10px;
+  margin-left: -5px;
 }
 
 .workflow-table .listViewEntryValue {
@@ -7122,7 +7121,11 @@ li.select2-search-choice div {
 
 .main-container-Reports .sidebar-essentials {
   width: 283px;
-  left: 0;
+  left: 45px;
+}
+
+div.floatThead-wrapper{
+  margin-left: 50px;
 }
 
 .main-container-Documents #sidebar-essentials{

@@ -8109,16 +8109,15 @@ table#lineItemTab tbody tr> :nth-child(4) {
 }
 
 #menubar_quickCreate_WhatsAppLog .quick-create-module::after {
-  content: "WhatsAppLog";      /* novo texto */
+  content: "WhatsApp";      /* novo texto */
   color: white;                /* cor do texto visível */
   position: absolute;
   top: 0;
   left: 0;
 }
 
-
 a#menubar_quickCreate_WhatsAppLog{
-  margin-left: -10px;
+  margin-left: -5px;
 }
 
 .workflow-table .listViewEntryValue {

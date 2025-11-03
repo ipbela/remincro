@@ -6671,22 +6671,21 @@ table#lineItemTab tbody tr > :nth-child(4) {
   text-overflow: ellipsis;
 }
 
-.quick-create-module {
-  font-size: inherit;
+#menubar_quickCreate_WhatsAppLog .quick-create-module {
+  color: transparent;          /* esconde o texto original */
   position: relative;
-  color: transparent; /* Esconde o texto original */
 }
 
-.quick-create-module::after {
-  content: "WhatsAppLog"; /* Novo texto sem 'SINGLE_' */
-  color: black; /* Cor do texto visível */
+#menubar_quickCreate_WhatsAppLog .quick-create-module::after {
+  content: "WhatsApp";      /* novo texto */
+  color: white;                /* cor do texto visível */
   position: absolute;
-  left: 0;
   top: 0;
+  left: 0;
 }
 
 a#menubar_quickCreate_WhatsAppLog{
-  margin-left: -10px;
+  margin-left: -5px;
 }
 
 .workflow-table .listViewEntryValue {
