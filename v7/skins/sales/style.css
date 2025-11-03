@@ -8098,7 +8098,6 @@ table#lineItemTab tbody tr> :nth-child(4) {
   color: white;
   padding: 0 0 0 12px;
   overflow-x: hidden;
-  display: inline-block;
   vertical-align: middle;
   text-overflow: ellipsis;
 }

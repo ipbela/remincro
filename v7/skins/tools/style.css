@@ -1411,10 +1411,10 @@ ul.unstyled {
   padding-left: 0px;
 }
 .coloredBorderBottom {
-  border-bottom: 1px solid #2ECC71;
+  border-bottom: 1px solid #d39489;
 }
 .coloredBorderTop {
-  border-top: 1px solid #2ECC71;
+  border-top: 1px solid #d39489;
 }
 .redColor {
   color: red;
@@ -6666,7 +6666,6 @@ table#lineItemTab tbody tr > :nth-child(4) {
   color: white;
   padding: 0 0 0 12px;
   overflow-x: hidden;
-  display: inline-block;
   vertical-align: middle;
   text-overflow: ellipsis;
 }
