@@ -1835,13 +1835,17 @@ input[type=checkbox]:checked {
   box-shadow: 0px 0px 2px 2px #CCCCCC;
 }
 
-#Users_basicAction_LBL_IMPORT, #Accounts_basicAction_LBL_IMPORT, #Contacts_basicAction_LBL_IMPORT, #Leads_basicAction_LBL_IMPORT, #Campaigns_basicAction_LBL_IMPORT{
+#calendarview_basicaction_addevent, #Users_basicAction_LBL_IMPORT, #Accounts_basicAction_LBL_IMPORT, #Contacts_basicAction_LBL_IMPORT, #Leads_basicAction_LBL_IMPORT, #Campaigns_basicAction_LBL_IMPORT{
   margin-left: -5px;
   margin-top: 5px;
 }
 
-#Users_listView_basicAction_LBL_ADD_RECORD, #Accounts_listView_basicAction_LBL_ADD_RECORD, #Contacts_listView_basicAction_LBL_ADD_RECORD, #Leads_listView_basicAction_LBL_ADD_RECORD, #Campaigns_listView_basicAction_LBL_ADD_RECORD{
+#calendarview_basicaction_addtask, #Users_listView_basicAction_LBL_ADD_RECORD, #Accounts_listView_basicAction_LBL_ADD_RECORD, #Contacts_listView_basicAction_LBL_ADD_RECORD, #Leads_listView_basicAction_LBL_ADD_RECORD, #Campaigns_listView_basicAction_LBL_ADD_RECORD{
   margin-top: 5px;
+}
+
+div#sidebar-essentials.sidebar-essentials{
+  margin-left: 40px;
 }
 
 button.btn.btn-default.module-buttons.dropdown-toggle{
@@ -6870,11 +6874,29 @@ table#lineItemTab tbody tr > :nth-child(4) {
   color: white;
   padding: 0 0 0 12px;
   overflow-x: hidden;
-  width: 80%;
   display: inline-block;
   vertical-align: middle;
   text-overflow: ellipsis;
 }
+
+.quick-create-module {
+  font-size: inherit;
+  position: relative;
+  color: transparent; /* Esconde o texto original */
+}
+
+.quick-create-module::after {
+  content: "WhatsAppLog"; /* Novo texto sem 'SINGLE_' */
+  color: black; /* Cor do texto visível */
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+a#menubar_quickCreate_WhatsAppLog{
+  margin-left: -10px;
+}
+
 .workflow-table .listViewEntryValue {
   word-wrap: break-word;
   white-space: normal;
@@ -7909,7 +7931,8 @@ input:focus:-ms-input-placeholder {
   border-radius: 4px;
   padding: 3px 5px;
   color: #FFFFFF;
-  background-color: #777;
+  font-weight: 600;
+  font-size: 16px;
 }
 .menuEditorItem .custom-module {
   border-radius: 4px;

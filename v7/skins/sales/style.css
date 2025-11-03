@@ -763,7 +763,7 @@ a.menu-item:hover {
 
 ul.dropdown-menu {
   border-radius: 15px;
-  background-color: #ffff;
+  background-color: #d39489;
   color: #ffffff;
 }
 
@@ -8098,10 +8098,27 @@ table#lineItemTab tbody tr> :nth-child(4) {
   color: white;
   padding: 0 0 0 12px;
   overflow-x: hidden;
-  width: 80%;
   display: inline-block;
   vertical-align: middle;
   text-overflow: ellipsis;
+}
+
+#menubar_quickCreate_WhatsAppLog .quick-create-module {
+  color: transparent;          /* esconde o texto original */
+  position: relative;
+}
+
+#menubar_quickCreate_WhatsAppLog .quick-create-module::after {
+  content: "WhatsAppLog";      /* novo texto */
+  color: white;                /* cor do texto visível */
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+a#menubar_quickCreate_WhatsAppLog{
+  margin-left: -10px;
 }
 
 .workflow-table .listViewEntryValue {
@@ -9357,7 +9374,8 @@ div.col-sm-12.col-xs-12.content-area{
   border-radius: 4px;
   padding: 3px 5px;
   color: #FFFFFF;
-  background-color: #777;
+  font-weight: 600;
+  font-size: 16px;
 }
 
 .menuEditorItem .custom-module {

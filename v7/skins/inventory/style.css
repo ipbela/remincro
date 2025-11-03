@@ -8048,10 +8048,27 @@ table#lineItemTab tbody tr> :nth-child(4) {
   color: white;
   padding: 0 0 0 12px;
   overflow-x: hidden;
-  width: 80%;
   display: inline-block;
   vertical-align: middle;
   text-overflow: ellipsis;
+}
+
+.quick-create-module {
+  font-size: inherit;
+  position: relative;
+  color: transparent; /* Esconde o texto original */
+}
+
+.quick-create-module::after {
+  content: "WhatsAppLog"; /* Novo texto sem 'SINGLE_' */
+  color: black; /* Cor do texto visível */
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+a#menubar_quickCreate_WhatsAppLog{
+  margin-left: -10px;
 }
 
 .workflow-table .listViewEntryValue {
@@ -9306,7 +9323,8 @@ input:focus:-ms-input-placeholder {
   border-radius: 4px;
   padding: 3px 5px;
   color: #FFFFFF;
-  background-color: #777;
+  font-weight: 600;
+  font-size: 16px;
 }
 
 .menuEditorItem .custom-module {
