@@ -6878,6 +6878,10 @@ table#lineItemTab tbody tr > :nth-child(4) {
   text-overflow: ellipsis;
 }
 
+button.btn.confirm-box-ok.confirm-box-btn-pad.btn-primary{
+  margin-top: 20px; 
+}
+
 #menubar_quickCreate_WhatsAppLog .quick-create-module {
   color: transparent;          /* esconde o texto original */
   position: relative;
